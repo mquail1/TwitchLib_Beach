@@ -43,12 +43,12 @@ public class tPubSub : MonoBehaviour
     private void OnPubSubServiceConnected(object sender, EventArgs e)
     {
         // Listen for Events
-        pubSub.ListenToWhispers(Secrets.channel_id);
-        pubSub.ListenToRewards(Secrets.channel_id); // CHANNEL ID
-        pubSub.ListenToBitsEvents(Secrets.channel_id);
+        // pubSub.ListenToWhispers(Secrets.channel_id);
+        // pubSub.ListenToRewards(Secrets.channel_id); // CHANNEL ID
+        // pubSub.ListenToBitsEvents(Secrets.channel_id);
 
         // Send Topics
-        pubSub.SendTopics(Secrets.client_access_token); // OAUTH TOKEN
+        // pubSub.SendTopics(Secrets.client_access_token); // OAUTH TOKEN
 
         // Connection Successful
         Debug.Log("PubSub Service Connected");

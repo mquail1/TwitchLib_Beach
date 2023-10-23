@@ -964,10 +964,6 @@
       <Project>{0a7cd3b6-79e6-6139-71c2-87647383c3cf}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{78ea555b-70e8-5916-51c4-bef7e23f69c8}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{d869de72-ef0b-3f42-1938-f440bfafb9e2}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
@@ -975,6 +971,10 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{99f4123e-c0bb-d487-7cc2-3ffd9d51a273}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{78ea555b-70e8-5916-51c4-bef7e23f69c8}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{89308cdf-c9d1-72f8-e119-3c14ffd111cd}</Project>
